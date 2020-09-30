@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">Petagram</string>
-    <string name="button_name">Click</string>
+    <string name="app_name">Gestor de Usuarios</string>
+    <string name="button_name">Ingresar a Formulario</string>
     <string name="text_title">HOLA MUNDO</string>
+    <string name="text_name">Nombre Completo</string>
+    <string name="text_telefono">Telefono</string>
+    <string name="text_email">E-Mail</string>
+    <string name="text_descripcionContacto">Descripcion de Contacto</string>
+    <string name="button_formulario">Siguiente</string>
 </resources>

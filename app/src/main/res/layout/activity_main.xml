@@ -13,6 +13,8 @@
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="84dp"
         android:text="@string/text_title"
         android:textSize="?attr/dialogPreferredPadding"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,18 +27,20 @@
         android:layout_marginTop="68dp"
         android:text="@string/button_name"
         android:theme="@style/MyRaisedButton"
+        android:onClick="irFormulario"
         app:layout_constraintTop_toBottomOf="@id/textViewTitle"
-        tools:layout_editor_absoluteX="7dp" />
+        tools:layout_editor_absoluteX="7dp"
+         />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabMyFAB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="180dp"
+        android:layout_marginBottom="40dp"
         android:src="@drawable/icon_starr"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toStartOf="parent" />
 
 
