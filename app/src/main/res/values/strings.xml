@@ -1,10 +1,23 @@
 <resources>
-    <string name="app_name">Gestor de Usuarios</string>
-    <string name="button_name">Ingresar a Formulario</string>
-    <string name="text_title">HOLA MUNDO</string>
-    <string name="text_name">Nombre Completo</string>
-    <string name="text_telefono">Telefono</string>
-    <string name="text_email">E-Mail</string>
-    <string name="text_descripcionContacto">Descripcion de Contacto</string>
-    <string name="button_formulario">Siguiente</string>
+    <string name="app_name">Mundo Animal</string>
+    <string name="textoBienvenida">Bienvenido!</string>
+    <string name="loginUsuario">Usuario</string>
+    <string name="loginContrasenia">Contraseña</string>
+    <string name="loginBtn">Entrar</string>
+    <string name="cardViewNombre">Catty</string>
+    <string name="cardViewLikes">5</string>
+    <string name="tituloAppBar">Petagram</string>
+    <string name="descriptionIconoToolbar">Imagen Huella</string>
+    <string name="tituloActionViewToolbar">Estrella</string>
+    <string name="itemMenuContacto">Contacto</string>
+    <string name="itemMenuAcercaDe">Acerca De</string>
+    <string name="descripcionImgCardView">Imagen Mascota</string>
+    <string name="hintEmail">Ingresa tu Email</string>
+    <string name="hintAsunto">Asunto</string>
+    <string name="hintMensaje">Mensaje</string>
+    <string name="btnEnviarMensaje">Enviar Mensaje</string>
+    <string name="tituloContactForm">Envianos un mensaje, con gusto te contactaremos lo más pronto posible...!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

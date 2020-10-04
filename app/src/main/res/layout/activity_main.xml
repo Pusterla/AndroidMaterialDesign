@@ -4,44 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingTop="16dp"
-    android:paddingRight="16dp"
+    android:background="@drawable/back"
     tools:context=".MainActivity">
 
+    <include layout="@layout/app_bar" />
+
     <TextView
-        android:id="@+id/textViewTitle"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="84dp"
-        android:text="@string/text_title"
-        android:textSize="?attr/dialogPreferredPadding"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/textoBienvenida"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/myButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:text="@string/button_name"
-        android:theme="@style/MyRaisedButton"
-        android:onClick="irFormulario"
-        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
-        tools:layout_editor_absoluteX="7dp"
-         />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fabMyFAB"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:src="@drawable/icon_starr"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/btn_transparente"
+        android:text="@string/loginBtn"
+        android:textColor="@drawable/btn_texto"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.929"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="544dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
