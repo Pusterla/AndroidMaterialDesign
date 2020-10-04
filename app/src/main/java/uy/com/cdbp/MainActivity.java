@@ -24,16 +24,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 //        editTextTextPersonName = findViewById(R.id.editTextTextPersonName);
 //        editTextTextPersonName2 = findViewById(R.id.editTextTextPersonName2);
-
-        editTextTextPersonName.setFocusable(false);
-        editTextTextPersonName.setEnabled(false);
-        editTextTextPersonName.setCursorVisible(false);
-        editTextTextPersonName.setKeyListener(null);
-
-        editTextTextPersonName2.setFocusable(false);
-        editTextTextPersonName2.setEnabled(false);
-        editTextTextPersonName2.setCursorVisible(false);
-        editTextTextPersonName2.setKeyListener(null);
+//
+//        editTextTextPersonName.setFocusable(false);
+//        editTextTextPersonName.setEnabled(false);
+//        editTextTextPersonName.setCursorVisible(false);
+//        editTextTextPersonName.setKeyListener(null);
+//
+//        editTextTextPersonName2.setFocusable(false);
+//        editTextTextPersonName2.setEnabled(false);
+//        editTextTextPersonName2.setCursorVisible(false);
+//        editTextTextPersonName2.setKeyListener(null);
 
         setToolBar();
         button = (Button) findViewById(R.id.button);
