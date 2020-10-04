@@ -49,48 +49,48 @@ public class ConstructorMascotas {
 
     public void insertarTresMascotas(BaseDatos db){
         ContentValues contentValues = new ContentValues();
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Gato Y Perro");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.gato_perro);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Aves");
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.pajarraco);
         db.insertarMascota(contentValues);
 
         contentValues = new ContentValues();
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Peludo");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.peludo);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Cuernos");
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.cuernos);
         db.insertarMascota(contentValues);
 
         contentValues = new ContentValues();
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Labradores");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.labradores);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Caballos Raros");
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.caballorayado);
         db.insertarMascota(contentValues);
 
         contentValues = new ContentValues();
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Perrote");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.perrote);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Aves");
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.pajarraco);
         db.insertarMascota(contentValues);
 
         contentValues = new ContentValues();
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Labrador Adulto");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.labrador_adulto);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Cuernos");
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.cuernos);
         db.insertarMascota(contentValues);
 
         contentValues = new ContentValues();
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Gato");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.gato);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Caballos Raros");
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.caballorayado);
         db.insertarMascota(contentValues);
 
         contentValues = new ContentValues();
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Pitbull");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.pitbull);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Aves");
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.pajarraco);
         db.insertarMascota(contentValues);
 
         contentValues = new ContentValues();
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Manchado");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.manchado);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Cuernos");
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.cuernos);
         db.insertarMascota(contentValues);
 
         contentValues = new ContentValues();
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "León");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.leon);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Caballos Raros");
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.caballorayado);
         db.insertarMascota(contentValues);
 
 
