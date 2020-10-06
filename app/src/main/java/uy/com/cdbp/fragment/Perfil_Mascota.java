@@ -41,7 +41,7 @@ public class Perfil_Mascota extends Fragment {
         inicializarAdaptador();
 
         //tvNombrePerfil.setText(mascotas.get(2).getNombreMascota());
-        tvNombrePerfil.setText("Gato Y Perro");
+        tvNombrePerfil.setText("Aves");
 
         return v;
     }

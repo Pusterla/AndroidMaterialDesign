@@ -14,7 +14,7 @@
             android:id="@+id/imgPerfil"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/coala"
+            android:src="@drawable/pajarraco"
             app:civ_border_color="@color/colorPrimary"
             app:civ_border_width="4dp"
             app:civ_shadow="true"

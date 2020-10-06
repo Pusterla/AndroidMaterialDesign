@@ -112,7 +112,7 @@ public class BaseDatos extends SQLiteOpenHelper {
     public ArrayList<Mascota> obtenerPerfil(){
         ArrayList<Mascota> mascotas = new ArrayList<>();
 
-        String query = "SELECT * FROM " + ConstantesBaseDatos.TABLA_MASCOTAS + " WHERE " + ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE + "= 'Gato Y Perro'";
+        String query = "SELECT * FROM " + ConstantesBaseDatos.TABLA_MASCOTAS + " WHERE " + ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE + "= 'Aves'";
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor registros = db.rawQuery(query,null);
 
